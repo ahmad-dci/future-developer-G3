@@ -1,0 +1,37 @@
+.note{
+    display: block;
+    width: 70px;
+    height: 65px;
+    border-right: 10px solid #FF004c;
+    border-left: 10px solid #FF004c;
+    border-top: 20px solid #FF004c;
+    position: relative;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.note:before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #FF004c;
+    border-radius: 15px;
+    position: absolute;
+    right: -10px;
+    bottom: -15px;
+}
+
+.note:after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #FF004c;
+    border-radius: 15px;
+    position: absolute;
+    left: -30px;
+    bottom: -15px;
+
+
+}
