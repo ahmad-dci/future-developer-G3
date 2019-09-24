@@ -1,0 +1,9 @@
+input{
+    border: 3px solid aqua;
+    box-shadow: 5px 5px 5px aqua; 
+}
+h1{
+    color: yellow !important ;
+}
+/* we add !important to give the style linked page the priotity insted the inline order */
+
