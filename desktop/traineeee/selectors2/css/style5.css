@@ -1,0 +1,36 @@
+.header:hover{
+color: red;
+}
+
+ul{
+    display: none
+}
+
+
+.header:hover + ul{
+    display: block;
+}
+
+ul li:first-child{
+    color: red;
+}
+
+.someDiv p:first-child{
+    color: red;
+}
+.someInput:required{
+    border: 2px solid blue;
+}
+.someInput:read-only{
+    border: 2px solid gray;
+
+}
+.someInput:valid{
+    border: 2px solid green;
+
+}
+
+.someInput:invalid{
+    border: 2px solid red;
+
+}

@@ -1,0 +1,23 @@
+.father{
+    background-color: red;
+    height: 200px;
+    width: 500px;
+    position: relative;
+}
+.child{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 75px;
+    left: 225px;
+    
+}
+.son{
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+    top: 15px;
+    left: 15px;
+    position: absolute;
+}
