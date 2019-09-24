@@ -1,0 +1,13 @@
+
+@font-face{
+    src: url('./Maria.ttf');
+    font-family: "Maria"
+}
+
+.fontClass{
+    font-family: 'Maria';
+    font-style: normal;
+    font-size: bolder;
+    font-size: 12rem;
+
+}
