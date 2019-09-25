@@ -11,6 +11,7 @@ html{
     right: 0;
     top: 0;
     bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.5) rgba(0,0,0,0.5));
     
 
     min-width: 150%;
@@ -381,18 +382,19 @@ transform: scale(80);
 z-index: 4;
 }
 
-#toggleCheckbox:checked ~ .toggleButton,.nav{
-    z-index: 4;
+#toggleCheckbox:checked ~ .toggleButton{
+    z-index: 7;
+
 }
 
 
-#toggleCheckbox2:checked ~ .navBackground2,.nav{
+#toggleCheckbox2:checked ~ .navBackground2{
     transform: scale(80);
     z-index: 4;
     
 }
 #toggleCheckbox2:checked ~ .toggleButton2{
-    z-index: 4;
+    z-index: 7;
 }
 
 
@@ -405,7 +407,7 @@ z-index: 4;
     
 }
 #toggleCheckbox3:checked ~ .toggleButton3{
-    z-index: 4;
+    z-index: 7;
 }
 
 
@@ -415,7 +417,7 @@ z-index: 4;
     
 }
 #toggleCheckbox4:checked ~ .toggleButton4{
-    z-index: 4;
+    z-index: 7;
 }
 
 #toggleCheckbox5:checked ~ .navBackground5{
@@ -465,9 +467,10 @@ z-index: 4;
 .nav{
     display: none;
     position: absolute;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../imgs/omar\(2\).jpg') no-repeat center center/cover;
     z-index: 2;
-    width: 100px;
-    height: 295px;
+    width: 100vw;
+    height: 100vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -478,9 +481,10 @@ z-index: 4;
     display: none;
     position: absolute;
     color: antiquewhite;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../imgs/olli.jpg') no-repeat center center/cover;
     z-index: 2;
-    width: 100px;
-    height: 295px;
+    width: 100%;
+    height: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -491,9 +495,10 @@ z-index: 4;
     display: none;
     position: absolute;
     color: wheat;
-    z-index: 2;
-    width: 100px;
-    height: 295px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../imgs/missruth.jpg') no-repeat center center/cover;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -503,10 +508,11 @@ z-index: 4;
 .nav4{
     display: none;
     position: absolute;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../imgs/tha.jpg') no-repeat center center/cover;
     color: wheat;
     z-index: 2;
-    width: 100px;
-    height: 295px;
+    width: 150vh;
+    height: 100vw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -517,7 +523,7 @@ z-index: 4;
     display: none;
     position: absolute;
     color: black;
-    z-index: 2;
+    z-index: 6;
     width: 100px;
     height: 295px;
     top: 50%;
