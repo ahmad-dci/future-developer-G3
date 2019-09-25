@@ -37,32 +37,32 @@
 
 .togglebox [for="A"] span:nth-child(1) {
     animation-name: a1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="A"] span:nth-child(2) {
     animation-name: a2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="A"] span:nth-child(3) {
     animation-name: a3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
 
 .togglebox [for="A"] span:nth-child(4) {
     animation-name: a4;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     height: 0;
 }
@@ -74,32 +74,32 @@
 
 .togglebox [for="D"] span:nth-child(1) {
     animation-name: d1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="D"] span:nth-child(2) {
     animation-name: d2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="D"] span:nth-child(3) {
     animation-name: d3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
 
 .togglebox [for="D"] span:nth-child(4) {
     animation-name: d4;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     height: 0;
 }
@@ -115,39 +115,39 @@
 
 .togglebox [for="E"] span:nth-child(1) {
     animation-name: e1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="E"] span:nth-child(2) {
     animation-name: e2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="E"] span:nth-child(3) {
     animation-name: e3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
 
 .togglebox [for="E"] span:nth-child(4) {
     animation-name: e4;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     height: 0;
 }
 .togglebox [for="E"] span:nth-child(5) {
     animation-name: e1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     height: 0px;
 }
@@ -159,24 +159,24 @@
 
 .togglebox [for="H"] span:nth-child(1) {
     animation-name: h1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="H"] span:nth-child(2) {
     animation-name: h2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="H"] span:nth-child(3) {
     animation-name: h3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
@@ -198,24 +198,24 @@
 
 .togglebox [for="I"] span:nth-child(1) {
     animation-name: i1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="I"] span:nth-child(2) {
     animation-name: i2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="I"] span:nth-child(3) {
     animation-name: i3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
@@ -232,24 +232,24 @@
 
 .togglebox [for="L"] span:nth-child(1) {
     animation-name: l1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="L"] span:nth-child(2) {
     animation-name: l2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="L"] span:nth-child(3) {
     animation-name: l3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
@@ -269,40 +269,40 @@
 
 .togglebox [for="M"] span:nth-child(1) {
     animation-name: m1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="M"] span:nth-child(5) {
     animation-name: m1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     height:0px;
 }
 
 .togglebox [for="M"] span:nth-child(2) {
     animation-name: m2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="M"] span:nth-child(3) {
     animation-name: m3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
 
 .togglebox [for="M"] span:nth-child(4) {
     animation-name: m4;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     height: 0;
 }
@@ -314,40 +314,40 @@
 
 .togglebox [for="N"] span:nth-child(1) {
     animation-name: n1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="N"] span:nth-child(2) {
     animation-name: n2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="N"] span:nth-child(3) {
     animation-name: n3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
 
 .togglebox [for="N"] span:nth-child(4) {
     animation-name: n4;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     height: 0;
 }
 
 .togglebox [for="N"] span:nth-child(5) {
     animation-name: n5;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     height: 0;
 }
@@ -359,32 +359,32 @@
 
 .togglebox [for="O"] span:nth-child(1) {
     animation-name: o1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="O"] span:nth-child(2) {
     animation-name: o2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="O"] span:nth-child(3) {
     animation-name: o3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
 
 .togglebox [for="O"] span:nth-child(4) {
     animation-name: o4;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     height: 0;
 }
@@ -402,40 +402,40 @@
 .togglebox [for="R"] span:nth-child(1) {
     top: 10px;
     animation-name: r1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
 .togglebox [for="R"] span:nth-child(2) {
     top: 25px;
     animation-name: r2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
 .togglebox [for="R"] span:nth-child(3) {
     top: 40px;
     animation-name: r3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
 .togglebox [for="R"] span:nth-child(4) {
     height: 0;
     animation-name: r4;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
 .togglebox [for="R"] span:nth-child(5) {
     height: 0;
     animation-name: r5;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -448,24 +448,24 @@
 
 .togglebox [for="T"] span:nth-child(1) {
     animation-name: t1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="T"] span:nth-child(2) {
     animation-name: t2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="T"] span:nth-child(3) {
     animation-name: t3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
@@ -486,24 +486,24 @@
 
 .togglebox [for="U"] span:nth-child(1) {
     animation-name: u1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="U"] span:nth-child(2) {
     animation-name: u2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="U"] span:nth-child(3) {
     animation-name: u3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
@@ -524,24 +524,24 @@
 
 .togglebox [for="V"] span:nth-child(1) {
     animation-name: v1;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 10px;
 }
 
 .togglebox [for="V"] span:nth-child(2) {
     animation-name: v2;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 25px;
 }
 
 .togglebox [for="V"] span:nth-child(3) {
     animation-name: v3;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     top: 40px;
 }
