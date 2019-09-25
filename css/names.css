@@ -147,6 +147,13 @@
     animation-fill-mode: forwards;
     height: 0;
 }
+.togglebox [for="E"] span:nth-child(5) {
+    animation-name: e1;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    height: 0px;
+}
 
 #H {
     display: none;
@@ -269,6 +276,14 @@
     animation-duration: 2s;
     animation-fill-mode: forwards;
     top: 10px;
+}
+
+.togglebox [for="M"] span:nth-child(5) {
+    animation-name: m1;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    height:0px;
 }
 
 .togglebox [for="M"] span:nth-child(2) {
