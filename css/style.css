@@ -3,13 +3,24 @@
     padding: 0;
 }
 html{
-    background-color: white;        
+    background:white;        
 }
-label.toggleButton {
+
+#backgroundVideo{
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+
+    min-width: 150%;
+    max-width: 150%;
+}
+.toggleButton {
     left:20vw; 
     top:20vh;
     transition: 0.8s;
-    z-index: 99999;
+    z-index: 2;
     position:absolute;
     right: 70vw;
     top: 40vh;
@@ -27,11 +38,14 @@ label.toggleButton {
     
     
 } 
-#toggleCheckbox:checked ~ label.toggleButton  {
+#toggleCheckbox:checked ~ .toggleButton  {
     left:40px; 
     top:40px;
     
+    
 }
+
+
 
 input + #toggleCheckbox  {
     position:static;
@@ -47,11 +61,11 @@ input + #toggleCheckbox  {
     100% {left:20px; top:20px;}
   }
 
-label.toggleButton2 {
+.toggleButton2 {
     left:40vw; 
     top:20vh;
     transition: 0.8s;
-    z-index: 99999;
+    z-index: 2;
     position:absolute;
     right: 70vw;
     top: 40vh;
@@ -66,7 +80,7 @@ label.toggleButton2 {
     text-align: center;
      box-shadow: -15px -15px 25px 4px #000 inset,0 0 15px 3px rgb(124, 121, 121);
     } 
-#toggleCheckbox2:checked ~ label.toggleButton2  {
+#toggleCheckbox2:checked ~ .toggleButton2  {
     left:40px; 
     top:40px;
     
@@ -86,11 +100,11 @@ input + #toggleCheckbox2  {
   } 
 
  
- label.toggleButton3{
+ .toggleButton3{
     left:60vw; 
     top:20vh;
     transition: 0.8s;
-    z-index: 99999;
+    z-index: 2;
     position:absolute;
     right: 70vw;
     top: 40vh;
@@ -122,11 +136,11 @@ input + #toggleCheckbox3  {
     100% {left:0px; top:300px;}
   } 
 
-label.toggleButton4{
+.toggleButton4{
     left:30vw; 
     top:20vh;
     transition: 0.8s;
-    z-index: 99999;
+    z-index: 2;
     position:absolute;
     right: 70vw;
     top: 60vh;
@@ -157,11 +171,11 @@ input + #toggleCheckbox4  {
     100% {left:0px; top:300px;}
   } 
 
-  label.toggleButton5{
+  .toggleButton5{
     left:50vw; 
     top:20vh;
     transition: 0.8s;
-    z-index: 99999;
+    z-index: 2;
     position:absolute;
     right: 70vw;
     top: 60vh;
@@ -180,7 +194,7 @@ input + #toggleCheckbox4  {
     left:40px; 
     top:40px;    
 }
-input + #toggleCheckbox4  {
+input + #toggleCheckbox5  {
     position:static;
     animation-name: example4;
     animation-duration: 3s;
@@ -302,7 +316,7 @@ box-shadow: -15px -15px 25px 4px #000 inset,0 0 15px 3px rgb(105, 101, 101);
  
 
 .navBackground{
-    background-image: radial-gradient(#000000, darkgray);
+    background-image: radial-gradient(black , darkgray) ;
     width: 118px;
     height: 118px;
     position: relative;
@@ -350,7 +364,7 @@ box-shadow: -15px -15px 25px 4px #000 inset,0 0 15px 3px rgb(105, 101, 101);
 }
 
 .navBackground5{
-    background-image:radial-gradient(black);/*(#5c0250, #b42828)*/
+    background-image:radial-gradient(black ,darkgray);/*(#5c0250, #b42828)*/
     width: 120px;
     height: 120px;
     position: relative;
@@ -364,27 +378,53 @@ box-shadow: -15px -15px 25px 4px #000 inset,0 0 15px 3px rgb(105, 101, 101);
 
 #toggleCheckbox:checked ~ .navBackground{
 transform: scale(80);
-
+z-index: 4;
 }
 
-#toggleCheckbox2:checked ~ .navBackground2{
+#toggleCheckbox:checked ~ .toggleButton,.nav{
+    z-index: 4;
+}
+
+
+#toggleCheckbox2:checked ~ .navBackground2,.nav{
     transform: scale(80);
+    z-index: 4;
     
 }
+#toggleCheckbox2:checked ~ .toggleButton2{
+    z-index: 4;
+}
+
+
+
+
 
 #toggleCheckbox3:checked ~ .navBackground3{
     transform: scale(80);
+    z-index: 4;
     
 }
+#toggleCheckbox3:checked ~ .toggleButton3{
+    z-index: 4;
+}
+
 
 #toggleCheckbox4:checked ~ .navBackground4{
     transform: scale(80);
+    z-index: 4;
     
+}
+#toggleCheckbox4:checked ~ .toggleButton4{
+    z-index: 4;
 }
 
 #toggleCheckbox5:checked ~ .navBackground5{
     transform: scale(80);
+    z-index: 4
     
+}
+#toggleCheckbox5:checked ~ .toggleButton5{
+    z-index: 4;
 }
 
 .navcontainer{
@@ -437,6 +477,7 @@ transform: scale(80);
 .nav2{
     display: none;
     position: absolute;
+    color: antiquewhite;
     z-index: 2;
     width: 100px;
     height: 295px;
@@ -449,6 +490,7 @@ transform: scale(80);
 .nav3{
     display: none;
     position: absolute;
+    color: wheat;
     z-index: 2;
     width: 100px;
     height: 295px;
@@ -461,6 +503,7 @@ transform: scale(80);
 .nav4{
     display: none;
     position: absolute;
+    color: wheat;
     z-index: 2;
     width: 100px;
     height: 295px;
@@ -473,6 +516,7 @@ transform: scale(80);
 .nav5{
     display: none;
     position: absolute;
+    color: black;
     z-index: 2;
     width: 100px;
     height: 295px;
@@ -484,23 +528,28 @@ transform: scale(80);
 
 #toggleCheckbox:checked ~ .nav{
     display: block;
+    z-index: 5;
 }
 
 
 #toggleCheckbox2:checked ~ .nav2{
     display: block;
+    z-index: 5;
 }
 
 #toggleCheckbox3:checked ~ .nav3{
     display: block;
+    z-index: 5;
 }
 
 #toggleCheckbox4:checked ~ .nav4{
     display: block;
+    z-index: 5;
 }
 
 #toggleCheckbox5:checked ~ .nav5{
     display: block;
+    z-index: 5;
     
 
 }
