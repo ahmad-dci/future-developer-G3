@@ -15,7 +15,7 @@
     margin: 0 auto; 
     letter-spacing: .15em; 
     animation: 
-      typing 10s steps(150, end),
+      typing 2s steps(40, end),
       blink-caret 1s step-end infinite;
   }
   
@@ -41,15 +41,15 @@
   .css-typing p:nth-child(1) {
     width: 26.95em;
     -webkit-animation: type 2s steps(40, end);
-    animation: type 2s steps(40, end);
+    animation: type 2.5s steps(40, end);
     animation-fill-mode: forwards;
   }
   
    .css-typing p:nth-child(2) {
     width: 26.5em;
     opacity: 0;
-    animation: type2 2s steps(40, end);
-    animation-delay: 2s;
+    animation: type2 2.5s steps(40, end);
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 
   }
@@ -57,64 +57,64 @@
   .css-typing p:nth-child(3) {
     width: 26em;
     opacity: 0;
-    animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-    animation-delay: 4s;
+    animation: type2 2.5s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 1.5s;
     animation-fill-mode: forwards;
   } 
   .css-typing p:nth-child(4) {
     width: 26.5em;
     opacity: 0;
-    animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-    animation-delay: 6s;
+    animation: type2 2.5s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 1.5s;
     animation-fill-mode: forwards;
   } 
   .css-typing p:nth-child(5) {
     width: 27em;
     opacity: 0;
-    animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-    animation-delay: 8s;
+    animation: type2 2.5s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
   } 
   .css-typing p:nth-child(6) {
     width: 27em;
     opacity: 0;
-    animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-    animation-delay: 10s;
+    animation: type2 2.5s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 2.5s;
     animation-fill-mode: forwards;
   } 
   .css-typing p:nth-child(7) {
     width: 27em;
     opacity: 0;
-    animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-    animation-delay: 12s;
+    animation: type2 2.5s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
   } 
   .css-typing p:nth-child(8) {
     width: 27em;
     opacity: 0;
-    animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-    animation-delay: 14s;
+    animation: type2 2.5s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 3.5s;
     animation-fill-mode: forwards;
   }
   .css-typing p:nth-child(9) {
     width: 27em;
     opacity: 0;
-    animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-    animation-delay: 16s;
+    animation: type2 2.5s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 4s;
     animation-fill-mode: forwards;
   } 
   .css-typing p:nth-child(10) {
     width: 27em;
     opacity: 0;
-    animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-    animation-delay: 18s;
+    animation: type2 2.5s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 4.5s;
     animation-fill-mode: forwards;
   } 
   .css-typing p:nth-child(11) {
     width: 27em;
     opacity: 0;
-    animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-    animation-delay: 20s;
+    animation: type2 2.5s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 5s;
     animation-fill-mode: forwards;
   }  
 
@@ -213,7 +213,7 @@
   }
 .textContainer{
   width: 29vw;
-  height: 50vh;
+  height: 30vh;
   border: solid black 1px;
   padding : 1px 10px 5px 5px ;
 }
