@@ -1,221 +1,222 @@
-  body {
-    background: white;
-    padding-top: 5em;
-    display: flex;
-    justify-content: center;
-  }
-  
-
-  .typewriter h1 {
-    color: #fff;
-    font-family: monospace;
-    overflow: hidden; 
-    border-right: .15em solid orange; 
-    white-space: wrap; 
-    margin: 0 auto; 
-    letter-spacing: .15em; 
-    animation: 
-      typing 2s steps(40, end),
-      blink-caret 1s step-end infinite;
-  }
-  
-  @keyframes typing {
-    from {width: 0%}
-    to {width:90%}
-  }
-    @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
-  }
+body {
+  background: white;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
 
 
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: wrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 2s steps(40, end),
+    blink-caret 1s step-end infinite;
+}
 
-  .css-typing p {
+@keyframes typing {
+  from {width: 0%}
+  to {width:90%}
+}
+  @keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+
+.css-typing p {
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  font-size: 1.5rem;
+  white-space:nowrap;
+  overflow: hidden;
+  text-align: justify;
+  padding-bottom: 0.2em;
+
+}
+.css-typing p:nth-child(1) {
+  width: 30em;
+  -webkit-animation: type 1s steps(60, end);
+  animation: type 1.5s steps(60, end);
+  animation-fill-mode: forwards;
+}
+
+ .css-typing p:nth-child(2) {
+  width: 30em;
+  opacity: 0;
+  -webkit-animation: type 2s steps(60, end);
+  animation: type2 1.5s steps(60, end);
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+
+}
+
+.css-typing p:nth-child(3) {
+  width: 30em;
+  opacity: 0;
+  -webkit-animation: type 2s steps(60, end);
+  animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+} 
+.css-typing p:nth-child(4) {
+  width: 30em;
+  opacity: 0;
+  animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+} 
+.css-typing p:nth-child(5) {
+  width: 30em;
+  opacity: 0;
+  animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+} 
+.css-typing p:nth-child(6) {
+  width: 30em;
+  opacity: 0;
+  animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+} 
+.css-typing p:nth-child(7) {
+  width: 30em;
+  opacity: 0;
+  animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+} 
+.css-typing p:nth-child(8) {
+  width: 30em;
+  opacity: 0;
+  animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(9) {
+  width: 30em;
+  opacity: 0;
+  animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+} 
+.css-typing p:nth-child(10) {
+  width: 30em;
+  opacity: 0;
+  animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
+  animation-delay: 9s;
+  animation-fill-mode: forwards;
+} 
+.css-typing p:nth-child(11) {
+  width: 30em;
+  opacity: 0;
+  animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+}  
+
+
+
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
     border-right: .15em solid orange;
-    font-family: "Courier";
-    font-size: 14px;
-    white-space:nowrap;
-    overflow: hidden;
-    text-align: justify;
   }
-  .css-typing p:nth-child(1) {
-    width: 26.95em;
-    -webkit-animation: type 1s steps(60, end);
-    animation: type 1.5s steps(60, end);
-    animation-fill-mode: forwards;
+  100% {
+    border: none;
   }
-  
-   .css-typing p:nth-child(2) {
-    width: 26.5em;
-    opacity: 0;
-    -webkit-animation: type 2s steps(60, end);
-    animation: type2 1.5s steps(60, end);
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
+}
 
+@-webkit-keyframes type {
+  0% {
+    width: 0;
   }
-  
-  .css-typing p:nth-child(3) {
-    width: 26em;
-    opacity: 0;
-    -webkit-animation: type 2s steps(60, end);
-    animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-  } 
-  .css-typing p:nth-child(4) {
-    width: 26.5em;
-    opacity: 0;
-    animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-  } 
-  .css-typing p:nth-child(5) {
-    width: 27em;
-    opacity: 0;
-    animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
-    animation-delay: 4s;
-    animation-fill-mode: forwards;
-  } 
-  .css-typing p:nth-child(6) {
-    width: 27em;
-    opacity: 0;
-    animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
-    animation-delay: 5s;
-    animation-fill-mode: forwards;
-  } 
-  .css-typing p:nth-child(7) {
-    width: 27em;
-    opacity: 0;
-    animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
-    animation-delay: 6s;
-    animation-fill-mode: forwards;
-  } 
-  .css-typing p:nth-child(8) {
-    width: 27em;
-    opacity: 0;
-    animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
-    animation-delay: 7s;
-    animation-fill-mode: forwards;
+  99.9% {
+    border-right: .15em solid orange;
   }
-  .css-typing p:nth-child(9) {
-    width: 27em;
-    opacity: 0;
-    animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
-    animation-delay: 8s;
-    animation-fill-mode: forwards;
-  } 
-  .css-typing p:nth-child(10) {
-    width: 27em;
-    opacity: 0;
-    animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
-    animation-delay: 9s;
-    animation-fill-mode: forwards;
-  } 
-  .css-typing p:nth-child(11) {
-    width: 27em;
-    opacity: 0;
-    animation: type2 1.5s steps(60, end), blink .5s step-end infinite alternate;
-    animation-delay: 10s;
-    animation-fill-mode: forwards;
-  }  
+  100% {
+    border: none;
+  }
+}
 
-  
-  
-  
-  @-webkit-keyframes type {
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      border: none;
-    }
+@keyframes type2 {
+  0% {
+    width: 0;
   }
-  
-  @-webkit-keyframes type {
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      border: none;
-    }
+  1% {
+    opacity: 1;
   }
-  
-  @keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
+  99.9% {
+    border-right: .15em solid orange;
   }
-  
-  @-webkit-keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
+  100% {
+    opacity: 1;
+    border: none;
   }
-  
-  @keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
   }
-  
-  @-webkit-keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
+  1% {
+    opacity: 1;
   }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
+  99.9% {
+    border-right: .15em solid orange;
   }
-  @-webkit-keyframes blink {
-    50% {
-      border-color: tranparent;
-    }
+  100% {
+    opacity: 1;
+    border: none;
   }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
 .textContainer{
-  width: 29vw;
-  height: 30vh;
-  border: solid black 1px;
-  padding : 1px 10px 5px 5px ;
+width: 30vw;
+height: 30vh;
+padding : 1px 10px 5px 5px ;
 }
