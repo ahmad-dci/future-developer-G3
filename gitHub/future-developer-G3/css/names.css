@@ -1,0 +1,1196 @@
+
+
+.ruth {
+    display: flex;
+}
+.oliver {
+    display: flex;
+}
+.thando{
+    display: flex;
+}
+.omar{
+    display: flex;
+}
+.togglebox label {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    position: relative;
+    display: block;
+    margin: 0px;
+}
+
+.togglebox label span {
+    width: 40px;
+    left: 5px;
+    height: 1px;
+    position: absolute;
+    background-color: white;
+    transition: transform 1s;
+}
+
+#A {
+    display: none;
+}
+
+.togglebox [for="A"] span:nth-child(1) {
+    animation-name: a1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="A"] span:nth-child(2) {
+    animation-name: a2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="A"] span:nth-child(3) {
+    animation-name: a3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="A"] span:nth-child(4) {
+    animation-name: a4;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    height: 0;
+}
+
+#D {
+    display: none;
+}
+
+
+.togglebox [for="D"] span:nth-child(1) {
+    animation-name: d1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="D"] span:nth-child(2) {
+    animation-name: d2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="D"] span:nth-child(3) {
+    animation-name: d3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="D"] span:nth-child(4) {
+    animation-name: d4;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    height: 0;
+}
+
+.togglebox [for="D"] span:nth-child(5) {
+    height: 0;
+}
+
+#E {
+    display: none;
+}
+
+
+.togglebox [for="E"] span:nth-child(1) {
+    animation-name: e1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="E"] span:nth-child(2) {
+    animation-name: e2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="E"] span:nth-child(3) {
+    animation-name: e3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="E"] span:nth-child(4) {
+    animation-name: e4;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    height: 0;
+}
+.togglebox [for="E"] span:nth-child(5) {
+    animation-name: e1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    height: 0px;
+}
+
+#H {
+    display: none;
+}
+
+
+.togglebox [for="H"] span:nth-child(1) {
+    animation-name: h1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="H"] span:nth-child(2) {
+    animation-name: h2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="H"] span:nth-child(3) {
+    animation-name: h3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="H"] span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox [for="H"] span:nth-child(5) {
+    height: 0;
+}
+
+
+
+#I {
+    display: none;
+}
+
+
+.togglebox [for="I"] span:nth-child(1) {
+    animation-name: i1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="I"] span:nth-child(2) {
+    animation-name: i2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="I"] span:nth-child(3) {
+    animation-name: i3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="I"] span:nth-child(4) {
+    height: 0;
+}
+
+
+#L {
+    display: none;
+}
+
+
+.togglebox [for="L"] span:nth-child(1) {
+    animation-name: l1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="L"] span:nth-child(2) {
+    animation-name: l2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="L"] span:nth-child(3) {
+    animation-name: l3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="L"] span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox [for="L"] span:nth-child(5) {
+    height: 0;
+}
+
+#M {
+    display: none;
+}
+
+
+.togglebox [for="M"] span:nth-child(1) {
+    animation-name: m1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="M"] span:nth-child(5) {
+    animation-name: m1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    height:0px;
+}
+
+.togglebox [for="M"] span:nth-child(2) {
+    animation-name: m2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="M"] span:nth-child(3) {
+    animation-name: m3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="M"] span:nth-child(4) {
+    animation-name: m4;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    height: 0;
+}
+
+#N {
+    display: none;
+}
+
+
+.togglebox [for="N"] span:nth-child(1) {
+    animation-name: n1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="N"] span:nth-child(2) {
+    animation-name: n2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="N"] span:nth-child(3) {
+    animation-name: n3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="N"] span:nth-child(4) {
+    animation-name: n4;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    height: 0;
+}
+
+.togglebox [for="N"] span:nth-child(5) {
+    animation-name: n5;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    height: 0;
+}
+
+#O {
+    display: none;
+}
+
+
+.togglebox [for="O"] span:nth-child(1) {
+    animation-name: o1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="O"] span:nth-child(2) {
+    animation-name: o2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="O"] span:nth-child(3) {
+    animation-name: o3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="O"] span:nth-child(4) {
+    animation-name: o4;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    height: 0;
+}
+
+.togglebox [for="O"] span:nth-child(5) {
+    height: 0;
+}
+
+
+#R {
+    display: none;
+}
+
+
+.togglebox [for="R"] span:nth-child(1) {
+    top: 10px;
+    animation-name: r1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.togglebox [for="R"] span:nth-child(2) {
+    top: 25px;
+    animation-name: r2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.togglebox [for="R"] span:nth-child(3) {
+    top: 40px;
+    animation-name: r3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.togglebox [for="R"] span:nth-child(4) {
+    height: 0;
+    animation-name: r4;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.togglebox [for="R"] span:nth-child(5) {
+    height: 0;
+    animation-name: r5;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+
+#T {
+    display: none;
+}
+
+
+.togglebox [for="T"] span:nth-child(1) {
+    animation-name: t1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="T"] span:nth-child(2) {
+    animation-name: t2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="T"] span:nth-child(3) {
+    animation-name: t3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="T"] span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox [for="T"] span:nth-child(5) {
+    height: 0;
+}
+
+
+#U {
+    display: none;
+}
+
+
+.togglebox [for="U"] span:nth-child(1) {
+    animation-name: u1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="U"] span:nth-child(2) {
+    animation-name: u2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="U"] span:nth-child(3) {
+    animation-name: u3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="U"] span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox [for="U"] span:nth-child(5) {
+    height: 0;
+}
+
+
+#V {
+    display: none;
+}
+
+
+.togglebox [for="V"] span:nth-child(1) {
+    animation-name: v1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 10px;
+}
+
+.togglebox [for="V"] span:nth-child(2) {
+    animation-name: v2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 25px;
+}
+
+.togglebox [for="V"] span:nth-child(3) {
+    animation-name: v3;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    top: 40px;
+}
+
+.togglebox [for="V"] span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox [for="V"] span:nth-child(5) {
+    height: 0;
+}
+
+@keyframes r1 {
+    0% {
+        top: 10px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        top: 5px;
+        left: 10px;
+        height: 2px;
+        width: 30px;
+        background-color: white;
+    }
+}
+
+@keyframes r2 {
+    0% {
+        top: 25px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: -10px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes r3 {
+    0% {
+        top: 10px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 18px;
+        left: 27px;
+        width: 25px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes r4 {
+    0% {
+        top: 25px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        top: 30px;
+        width: 30px;
+        left: 10px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes r5 {
+    0% {
+        top: 25px;
+    }
+
+    100% {
+        transform: rotate(28deg);
+        top: 37px;
+        width: 30px;
+        left: 10px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes u1 {
+    0% {
+        top: 25px;
+    }
+
+    100% {
+    transform: rotate(90deg);
+    top: 25px;
+    left: -10px;
+    height: 2px;
+    background-color: white;
+    }
+}
+@keyframes u2 {
+    0% {
+        top: 40px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: 20px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes u3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+    transform: rotate(0deg);
+    top: 45px;
+    width: 30px;
+    left: 10px;
+    height: 2px;
+    background-color: white;
+    }
+}
+@keyframes t1 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        top: 5px;
+        left: 8px;
+        height: 2px;
+        width: 35px;
+        background-color: white;
+    }
+}
+@keyframes t2 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: 5px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes t3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 0px;
+    }
+}
+@keyframes h1 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: -10px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes h2 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: 20px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes h3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        top: 25px;
+        left: 10px;
+        width: 30px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes o1 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+    transform: rotate(0deg);
+    top: 5px;
+    left: 10px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    }
+}
+@keyframes o2 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: -10px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes o3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: 20px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes o4 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        top: 45px;
+        width: 30px;
+        left: 10px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes m1 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(60deg);
+    top: 20px;
+    left: 0px;
+    height: 2px;
+    width: 35px;
+    background-color: white;
+    }
+}
+
+@keyframes m2 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(60deg);
+        transform: rotate(-60deg);
+        top: 20px;
+        left: 17px;
+        height: 2px;
+        width: 35px;
+        background-color: white;
+    }
+}
+@keyframes m3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: 23px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes m4 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+    top: 25px;
+    left: -12px;
+    height: 2px;
+    background-color: white;
+    }
+}
+@keyframes a1 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 0px;
+    }
+}
+@keyframes a2 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(-60deg);
+        top: 25px;
+        left: -5px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes a3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(60deg);
+    top: 25px;
+    left: 15px;
+    height: 2px;
+    background-color: white;
+    }
+}
+@keyframes a4 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+    left: 10px;
+    top: 31px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    }
+}
+@keyframes l1 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        top: 45px;
+        left: 11px;
+        height: 2px;
+        width: 27px;
+        background-color: white;
+    }
+}
+@keyframes l2 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: -8px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes l3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 0px;
+    }
+}
+@keyframes i1 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 7px;
+        left: 25px;
+        width: 4px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes i2 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+    top: 28px;
+    left: 12px;
+    height: 2px;
+    width: 30px;
+    background-color: white;
+    }
+}
+@keyframes i3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 0px;
+    }
+}
+
+@keyframes v1 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 0px;
+    }
+}
+
+@keyframes v2 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(60deg);
+        top: 25px;
+        left: -5px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes v3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(-60deg);
+        top: 25px;
+        left: 15px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes e1 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+    top: 5px;
+    left: 10px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    }
+}
+@keyframes e2 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: -10px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes e3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+    top: 45px;
+    left: 10px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    }
+}
+@keyframes e4 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        left: 10px;
+        top: 25px;
+        width: 30px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes n1 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 0px;
+    }
+}
+
+@keyframes n2 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: -10px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes n3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+    top: 25px;
+    left: 20px;
+    height: 2px;
+    background-color: white;
+    }
+}
+
+@keyframes n4 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 0px;
+    }
+}
+
+@keyframes n5 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(51deg);
+        top: 25px;
+        left: 0px;
+        width: 50px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes d1 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(15deg);
+    top: 10px;
+    left: 11px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    }
+}
+
+@keyframes d2 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: -9px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes d3 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(-15deg);
+        top: 40px;
+        width: 30px;
+        left: 11px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes d4 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        width: 24px;
+        left: 28px;
+        height: 2px;
+        background-color: white;
+    }
+}
