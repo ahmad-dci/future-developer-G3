@@ -12,8 +12,6 @@ html{
     right: 0;
     top: 0;
     bottom: 0;
-    
-
     min-width: 150%;
     min-height: 100vh;
 }
@@ -434,6 +432,7 @@ z-index: 4;
     height: 100vh;
     position: absolute;
     overflow: hidden;
+    top: 0%;
 }
 
 .navcontainer2{
@@ -442,6 +441,8 @@ z-index: 4;
     position: absolute;
     overflow: hidden;
     color: wheat;
+    top: 0%;
+
 
 }
 
@@ -451,6 +452,8 @@ z-index: 4;
     position: absolute;
     overflow: hidden;
     color: wheat;
+top: 0%;
+
 
 }
 
@@ -461,6 +464,8 @@ z-index: 4;
     overflow: hidden;
     color: wheat;
 
+top: 0%;
+
 }
 
 .navcontainer5{
@@ -468,7 +473,9 @@ z-index: 4;
     height: 100vh;
     position: absolute;
     overflow: hidden;
-    color: wheat
+
+    color: wheat;
+top: 0%;
 
 }
 .nav{
